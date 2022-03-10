@@ -1,0 +1,266 @@
+#herosection {
+    background: url('https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center;
+    background-size: cover;
+    height: 90vh;
+  }
+  .herotext {
+    margin-top: 10%;
+  }
+  .herotext h1,
+  .card-head {
+    font-family: 'DM Serif Display', serif;
+  }
+  .herobtn {
+    background-color: #9dd04f;
+    font-size: 0.9em;
+  }
+  #cardsection {
+    background: url('images/background.jpg') center no-repeat;
+  }
+  #whybarahona {
+    background: url('https://images.unsplash.com/photo-1506214627375-73b490d8b1e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1252&q=80') no-repeat center;
+    background-size: cover;
+  }
+  .filter {
+    background-color: rgba(17, 16, 16, 0.466);
+    backdrop-filter: opacity(50%);
+  }
+  .schedule {
+    display: none;
+  }
+  #card:hover .schedule {
+    display: block;
+  }
+  #card:hover .card-img-overlay {
+    background-color: rgba(29, 24, 24, 0.473);
+  }
+ 
+  .rounded-circle2 {
+    width: 120px;
+    box-shadow: 0px 12px 1px 0px rgba(29, 14, 14, 0.26);
+  }
+  #booking {
+    background-color: #9dd04f;
+  }
+  footer {
+    background-color: #4b5b34;
+  }
+  footer h6 {
+    color: #9dd04f;
+  }
+  footer p {
+    color: white;
+  }
+  .head {
+    font-family: 'DM Serif Display', serif;
+  }
+  #boat {
+    background: url('images/boatpic.jpg') center no-repeat;
+    background-size: cover;
+  }
+  #hero {
+    background: url('images/village.jpg') center no-repeat;
+    background-size: cover;
+  }
+  #cardsection2 {
+    background: url('images/bluebackground.jpg') center no-repeat;
+    background-size: cover;
+  }
+  #hero2 {
+    background: url('images/river.jpg') center no-repeat;
+    background-size: cover;
+  }
+  .guidespic {
+    width:150px;
+  }
+#privateform{
+  opacity:    0.5; 
+background: #000; 
+width:      100%;
+height:     100%; 
+z-index:    10;
+top:        0; 
+left:       0; 
+position:   fixed; 
+}
+.popupform{
+  position:absolute;
+  margin-top:50%;
+  z-index:99;
+}
+form{
+display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.getstarted {
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    margin-top: -1%;
+  }
+  .bigpic {
+    width: 49.5%;
+    height: 300px;
+    margin: 0 0.5% 0 0;
+    position: relative;
+    
+  }
+  .smallpic {
+    width: 24.5%;
+    height: 300px;
+    margin: 0 0.5% 0 0;
+    position: relative;
+  
+  }
+  .details {
+    display: none;
+    overflow:hidden;
+  }
+  .color-overlay {
+    width: 100%;
+    margin-left: -1.2%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    position: absolute;
+    display: none;
+  }
+  .color-overlay2 {
+    width: 100%;
+    margin-left: -3%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    position: absolute;
+    display: none;
+  }
+  .box {
+    z-index: 2;
+  }
+  .bigpic:hover .color-overlay {
+    display: block;
+  }
+  .bigpic:hover .details {
+    display: block;
+   
+  }
+  .smallpic:hover .color-overlay2 {
+    display: block;
+  }
+  .smallpic:hover .details {
+    display: block;
+  }
+  #guides {
+    background-color: #f0efed;
+  }
+  .dot{
+    height: 17px;
+    width: 17px;
+    margin:0 -0.2%;
+    background-color: #04AA84;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #hero3 {
+    background: url('images/mountain2.jpg') center no-repeat;
+    background-size: cover;
+  }
+  .nav{
+    border-bottom:solid #9dd04f 2px;
+ }
+
+ .nav-pills .nav-link.active{
+     border:none;
+     border-bottom:solid #9dd04f 4px;
+     font-weight:500;
+     background-color: white;
+ }
+ .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+ }
+.map-container iframe{
+   left:0;
+   top:0;
+   height:100%;
+   width:100%;
+   position:absolute;
+ }
+ #hero4 {
+    background: url('https://images.pexels.com/photos/7753054/pexels-photo-7753054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center no-repeat;
+    background-size: cover;
+  }
+ #tourlist{
+    background-color:#ececec;
+    position:relative;
+  }
+.tours .card{
+  z-index:99;
+}
+ .black{
+ position:fixed;
+ top:0;
+ bottom:0;
+ background-color: rgba(0, 0, 0, 0.445);
+ width:100%;
+ }
+.cardcnt2{
+  display:none;
+}
+ .tourcard:hover .cardcnt1{
+   display:none;
+ }
+ .tourcard:hover .cardcnt2{
+   display:block;
+ }
+  @media only screen and (max-width: 1200px) {
+    .bigpic {
+      width: 99.5%;
+      height: 300px;
+      margin: 0 0.5%;
+    }
+    .smallpic {
+      width: 49.5%;
+      height: 300px;
+      margin: 0.5% 0.5% 0 0;
+    }
+ 
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .bigpic {
+      width: 100%;
+    }
+    .smallpic {
+      width: 99.5%;
+      margin: 0.5%;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+    #cardsection .card {
+      position: absolute;
+      width: 40%;
+      margin-top: 5%;
+      z-index: 99;
+    }
+    #cardvideo {
+      width: 60%;
+
+      margin-left: auto;
+    }
+    #cardsection2 .card {
+        position: absolute;
+        width: 40%;
+        margin-top: 5%;
+        z-index: 99;
+      }
+      #cardvideo2 {
+        width: 60%;
+        margin-left: auto;
+      }
+  } ;
+ 
+
+
